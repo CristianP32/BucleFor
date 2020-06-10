@@ -19,29 +19,51 @@ public class BucleFor {
     public static void main(String[] args) {
         // TODO code application logic here
         //BUCLE FOR
+        //inicio1
 //        for(int i = 0; 100< 5; 100++){
 //        
 //        System.out.println(i);
 //        
 //        }
+//fin1
+//inicio2
+//    int inicio,fin; 
+//    Scanner leer;
+//    
+//    //guardamos el valor de limite
+//    leer = new Scanner (System.in);
+//    
+//    System.out.println("Ingrese el inicio: ");
+//    inicio = leer.nextInt();
+//    
+//    System.out.println("Ingrese el fin: ");
+//    fin = leer.nextInt();
+//    
+//    for( int i = inicio; i<= fin; i++){
+//    
+//        System.out.println("El valor de i es --> " + i);
+//        
+//    }
+//fin2
+    
+//inicio 3
 
-    int inicio,fin; 
+    int nuMul,limite;
     Scanner leer;
     
-    //guardamos el valor de limite
     leer = new Scanner (System.in);
     
-    System.out.println("Ingrese el inicio: ");
-    inicio = leer.nextInt();
+    System.out.println("Tabla de multiplicación de : ");
+    nuMul = leer.nextInt();
     
-    System.out.println("Ingrese el fin: ");
-    fin = leer.nextInt();
+    System.out.println("Limite");
+    limite = leer.nextInt();
     
-    for( int i = inicio; i<= fin; i++){
-    
-        System.out.println("El valor de i es --> " + i);
-        
+    for(int i = 0; 1<= 10; i++){
+        System.out.println(i + " por " + nuMul + " = " + (nuMul * i));
     }
+    
+    //fin3
     }
     
 }

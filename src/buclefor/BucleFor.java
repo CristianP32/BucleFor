@@ -53,13 +53,13 @@ public class BucleFor {
     
     leer = new Scanner (System.in);
     
-    System.out.println("Tabla de multiplicación de : ");
+    System.out.println("Tabla de multiplicación de: ");
     nuMul = leer.nextInt();
     
     System.out.println("Limite");
     limite = leer.nextInt();
     
-    for(int i = 0; 1<= 10; i++){
+    for(int i = 0; i<= limite ; i++){
         System.out.println(i + " por " + nuMul + " = " + (nuMul * i));
     }
     
